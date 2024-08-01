@@ -1,0 +1,23 @@
+# Automated Backup and Disaster Recovery System
+
+This project is designed to automate the backup process for important data, providing a simple and effective disaster recovery solution.
+
+## Author
+**Rahul khetwal**
+
+## Description
+The system uses a shell script to create compressed backups of specified directories or files. These backups are stored locally in a designated folder, with the capability to automate the process using cron jobs.
+
+## Usage
+1. Modify the `backup.sh` script to specify the directories or files to back up.
+2. Schedule the script using cron for automated backups.
+
+## Features
+- Automated backups
+- Local storage of backup files
+- Easy configuration
+
+## License
+This project is open-source and available under the MIT License.
+
+
